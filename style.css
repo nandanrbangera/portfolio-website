@@ -1,0 +1,208 @@
+/* Reset and General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background: #74b0f0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+/* Navigation Styles */
+nav {
+    background: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: grey;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #69a8eb;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin: 10px 0;
+}
+
+/* Education and Experience Styles */
+h3, h4 {
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+ul ol {
+    padding-left: 20px;
+}
+
+/* Contact Section Styles */
+.contact {
+    background: #007bff;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact .title {
+    margin-bottom: 20px;
+}
+
+.contact .contact-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .column {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+    text-align: left;
+}
+
+.contact .text {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact .paragraph-3 {
+    margin: 10px 0;
+}
+
+.contact form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.contact .field {
+    margin: 10px 0;
+}
+
+.contact .field input,
+.contact .field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.contact .field textarea {
+    resize: vertical;
+}
+
+.contact .button button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact .button button:hover {
+    background: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
